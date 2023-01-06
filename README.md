@@ -1,0 +1,4 @@
+# MCS-48_EVB
+
+Simple computer system using MCS-48 family microcontroller. System contains external program memory & external data memory. The external data memory uses the 62256 (32k x 8b) SRAM memory. The microcontroller directly addresses the 256 bytes of the memory, but the system adds the possibility of bank switching using the 8243 GPIO expander. The bank switching is done in software. It can be leveraged to implement multi-tasking environment with hard task memory separation. The external data memory contains 128 banks, 256 bytes each.
+The external program memory uses 8k x 8b 27C64 EPROM memory. The microcontroller max program memory size is 4kB, thus EPROM contain two 4kB banks, that can be switched using the 8243 expander. This feature is experimental, thus HW jumper is added that enables setting the EPROM's A12 line to logical '0' by connecting it to the ground.
