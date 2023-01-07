@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 8155
+D Intel 8155 port expander with built-in 256B SRAM.
+K Intel, 8155, expander
+$ENDCMP
+#
 $CMP 8243
 D Intel 8243 port expander
 K 8243, expander

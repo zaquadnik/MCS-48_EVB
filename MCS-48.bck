@@ -5,4 +5,9 @@ D Intel 8243 port expander
 K 8243, expander
 $ENDCMP
 #
+$CMP 8251
+D Intel 8251 UART 
+K UART
+$ENDCMP
+#
 #End Doc Library

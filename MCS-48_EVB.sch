@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MCS-48
 LIBS:MCS-48_EVB-cache
 EELAYER 25 0
 EELAYER END
@@ -863,21 +864,8 @@ Wire Wire Line
 	6650 4000 6950 4000
 Wire Wire Line
 	6650 4100 6950 4100
-$Comp
-L GND #PWR?
-U 1 1 63B8D3EE
-P 6850 4350
-F 0 "#PWR?" H 6850 4100 50  0001 C CNN
-F 1 "GND" H 6850 4200 50  0000 C CNN
-F 2 "" H 6850 4350 50  0000 C CNN
-F 3 "" H 6850 4350 50  0000 C CNN
-	1    6850 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6650 4250 6850 4250
-Wire Wire Line
-	6850 4250 6850 4350
+	6650 4250 6950 4250
 Text Label 6800 4100 0    60   ~ 0
 ~WR
 Text Label 6800 4000 0    60   ~ 0
@@ -1074,4 +1062,176 @@ Wire Wire Line
 	4150 4100 4300 4100
 Text Label 4200 4100 0    60   ~ 0
 EA
+Text Label 6700 4250 0    60   ~ 0
+~RAM_S
+Text Label 9250 1700 0    60   ~ 0
+~RAM_S
+$Comp
+L 8155 U?
+U 1 1 63B981E9
+P 8850 4450
+F 0 "U?" H 8500 5850 60  0000 C CNN
+F 1 "8155" H 8550 3450 60  0000 C CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_LongPads" H 8850 4450 60  0001 C CNN
+F 3 "" H 8850 4450 60  0001 C CNN
+	1    8850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 63B98328
+P 7550 3150
+F 0 "C?" H 7575 3250 50  0000 L CNN
+F 1 "100n" H 7575 3050 50  0000 L CNN
+F 2 "" H 7588 3000 50  0000 C CNN
+F 3 "" H 7550 3150 50  0000 C CNN
+	1    7550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 63B983C7
+P 7550 2900
+F 0 "#PWR?" H 7550 2750 50  0001 C CNN
+F 1 "+5V" H 7550 3040 50  0000 C CNN
+F 2 "" H 7550 2900 50  0000 C CNN
+F 3 "" H 7550 2900 50  0000 C CNN
+	1    7550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 63B98498
+P 7550 3400
+F 0 "#PWR?" H 7550 3150 50  0001 C CNN
+F 1 "GND" H 7550 3250 50  0000 C CNN
+F 2 "" H 7550 3400 50  0000 C CNN
+F 3 "" H 7550 3400 50  0000 C CNN
+	1    7550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2900 7550 3000
+Wire Wire Line
+	7550 3300 7550 3400
+Wire Wire Line
+	8250 3150 7800 3150
+Wire Wire Line
+	7800 3150 7800 2950
+Wire Wire Line
+	7800 2950 7550 2950
+Connection ~ 7550 2950
+Wire Wire Line
+	8250 3250 7800 3250
+Wire Wire Line
+	7800 3250 7800 3350
+Wire Wire Line
+	7800 3350 7550 3350
+Connection ~ 7550 3350
+Wire Wire Line
+	9400 3150 9700 3150
+Wire Wire Line
+	9400 3250 9700 3250
+Wire Wire Line
+	9400 3350 9700 3350
+Wire Wire Line
+	9400 3450 9700 3450
+Wire Wire Line
+	9400 3550 9700 3550
+Wire Wire Line
+	9400 3650 9700 3650
+Wire Wire Line
+	9400 3750 9700 3750
+Wire Wire Line
+	9400 3850 9700 3850
+Wire Wire Line
+	9400 4000 9700 4000
+Wire Wire Line
+	9400 4100 9700 4100
+Wire Wire Line
+	9400 4200 9700 4200
+Wire Wire Line
+	9400 4300 9700 4300
+Wire Wire Line
+	9400 4400 9700 4400
+Wire Wire Line
+	9400 4500 9700 4500
+Wire Wire Line
+	9400 4600 9700 4600
+Wire Wire Line
+	9400 4700 9700 4700
+Wire Wire Line
+	9400 4850 9700 4850
+Wire Wire Line
+	9400 4950 9700 4950
+Wire Wire Line
+	9400 5050 9700 5050
+Wire Wire Line
+	9400 5150 9700 5150
+Wire Wire Line
+	9400 5250 9700 5250
+Wire Wire Line
+	9400 5350 9700 5350
+Wire Wire Line
+	8250 3450 7950 3450
+Wire Wire Line
+	8250 3550 7950 3550
+Wire Wire Line
+	8250 3650 7950 3650
+Wire Wire Line
+	8250 3750 7950 3750
+Wire Wire Line
+	8250 3850 7950 3850
+Wire Wire Line
+	8250 3950 7950 3950
+Wire Wire Line
+	8250 4200 7950 4200
+Wire Wire Line
+	8250 4300 7950 4300
+Wire Wire Line
+	8250 4400 7950 4400
+Wire Wire Line
+	8250 4500 7950 4500
+Wire Wire Line
+	8250 4600 7950 4600
+Wire Wire Line
+	8250 4700 7950 4700
+Wire Wire Line
+	8250 4800 7950 4800
+Wire Wire Line
+	8250 4900 7950 4900
+Wire Wire Line
+	8250 5250 7950 5250
+Wire Wire Line
+	8250 5350 7950 5350
+Text Label 7950 3650 0    60   ~ 0
+~EXP_S
+Text Label 9250 1800 0    60   ~ 0
+~EXP_S
+Text Label 9250 1900 0    60   ~ 0
+IO/~M
+Text Label 7950 3550 0    60   ~ 0
+IO/~M
+Text Label 7950 3750 0    60   ~ 0
+~RD
+Text Label 7950 3850 0    60   ~ 0
+~WR
+Text Label 7950 3950 0    60   ~ 0
+ALE
+Text Label 7950 4200 0    60   ~ 0
+DB0
+Text Label 7950 4300 0    60   ~ 0
+DB1
+Text Label 7950 4400 0    60   ~ 0
+DB2
+Text Label 7950 4500 0    60   ~ 0
+DB3
+Text Label 7950 4600 0    60   ~ 0
+DB4
+Text Label 7950 4700 0    60   ~ 0
+DB5
+Text Label 7950 4800 0    60   ~ 0
+DB6
+Text Label 7950 4900 0    60   ~ 0
+DB7
 $EndSCHEMATC
