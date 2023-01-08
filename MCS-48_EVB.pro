@@ -1,4 +1,4 @@
-update=2023-01-06 22:02:00
+update=2023-01-08 17:28:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../MCS-48_EVB
+LibDir=../MCS-48_EVB;../../../../Engineering_software/KiCad/ExtLib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,16 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=MCS-48
+LibName31=Connector_Generic/Connector_Generic
+LibName32=Kicad-Libraries/library/dspic
+LibName33=Kicad-Libraries/library/ftdi
+LibName34=Kicad-Libraries/library/lpc43xx
+LibName35=Kicad-Libraries/library/maxim
+LibName36=Kicad-Libraries/library/msp430
+LibName37=Kicad-Libraries/library/passives
+LibName38=Kicad-Libraries/library/pic18
+LibName39=Kicad-Libraries/library/st
+LibName40=Kicad-Libraries/library/stm32
+LibName41=Kicad-Libraries/library/switches
+LibName42=Kicad-Libraries/library/vreg
+LibName43=Kicad-Libraries/library/zilog
