@@ -5,7 +5,7 @@
     (no_connects 206)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 6)
     (tracks 0)
     (zones 0)
     (modules 37)
@@ -745,7 +745,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer B.Cu) (tedit 58AA84A8) (tstamp 63BB115C)
-    (at 126.0348 92.6846 270)
+    (at 127.1524 92.4052 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /63B98328)
@@ -824,7 +824,7 @@
   )
 
   (module Display:WC1602A (layer F.Cu) (tedit 5958D986) (tstamp 63BB117B)
-    (at 94.8182 52.9336)
+    (at 90.5764 53.086)
     (descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
     (tags "LCD 16x2 Alphanumeric 16pin")
     (path /63BA0648)
@@ -1573,7 +1573,7 @@
   )
 
   (module Potentiometers:Potentiometer_Trimmer_ACP_CA9v_Horizontal_Px10.0mm_Py5.0mm (layer F.Cu) (tedit 58826B0A) (tstamp 63BB1204)
-    (at 71.755 59.817)
+    (at 65.4304 59.7916)
     (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GH/249GH Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148A/149A Single with mounting plates, Vishay/Spectrol 148/149 Double, Vishay/Spectrol 148A/149A Double with mounting plates, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16SV Single, Piher PC-16 Double, Piher PC-16 Triple, Piher T16H Single, Piher T16L Single, Piher T16H Double, Alps RK163 Single, Alps RK163 Double, Alps RK097 Single, Alps RK097 Double, Bourns PTV09A-2 Single with mounting sleve Single, Bourns PTV09A-1 with mounting sleve Single, Bourns PRS11S Single, Alps RK09K Single with mounting sleve Single, Alps RK09K with mounting sleve Single, Alps RK09L Single, Alps RK09L Single, Alps RK09L Double, Alps RK09L Double, Alps RK09Y Single, Bourns 3339S Single, Bourns 3339S Single, Bourns 3339P Single, Bourns 3339H Single, Vishay T7YA Single, Suntan TSR-3386H Single, Suntan TSR-3386H Single, Suntan TSR-3386P Single, Vishay T73XX Single, Vishay T73XX Single, Vishay T73YP Single, Piher PT-6h Single, Piher PT-6v Single, Piher PT-6v Single, Piher PT-10h2.5 Single, Piher PT-10h5 Single, Piher PT-101h3.8 Single, Piher PT-10v10 Single, Piher PT-10v10 Single, Piher PT-10v5 Single, Piher PT-15h5 Single, Piher PT-15h2.5 Single, Piher PT-15B Single, Piher PT-15hc5 Single, Piher PT-15v12.5 Single, Piher PT-15v12.5 Single, Piher PT-15v15 Single, Piher PT-15v15 Single, ACP CA6h Single, ACP CA6v Single, ACP CA6v Single, ACP CA6VSMD Single, ACP CA6VSMD Single, ACP CA9h2.5 Single, ACP CA9h3.8 Single, ACP CA9h5 Single, ACP CA9V Single, http://www.acptechnologies.com/wp-content/uploads/2016/12/ACP-CAT%C3%81LOGO-ENTERO-2016.pdf")
     (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GH/249GH Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148A/149A Single with mounting plates  Vishay/Spectrol 148/149 Double  Vishay/Spectrol 148A/149A Double with mounting plates  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16SV Single  Piher PC-16 Double  Piher PC-16 Triple  Piher T16H Single  Piher T16L Single  Piher T16H Double  Alps RK163 Single  Alps RK163 Double  Alps RK097 Single  Alps RK097 Double  Bourns PTV09A-2 Single with mounting sleve Single  Bourns PTV09A-1 with mounting sleve Single  Bourns PRS11S Single  Alps RK09K Single with mounting sleve Single  Alps RK09K with mounting sleve Single  Alps RK09L Single  Alps RK09L Single  Alps RK09L Double  Alps RK09L Double  Alps RK09Y Single  Bourns 3339S Single  Bourns 3339S Single  Bourns 3339P Single  Bourns 3339H Single  Vishay T7YA Single  Suntan TSR-3386H Single  Suntan TSR-3386H Single  Suntan TSR-3386P Single  Vishay T73XX Single  Vishay T73XX Single  Vishay T73YP Single  Piher PT-6h Single  Piher PT-6v Single  Piher PT-6v Single  Piher PT-10h2.5 Single  Piher PT-10h5 Single  Piher PT-101h3.8 Single  Piher PT-10v10 Single  Piher PT-10v10 Single  Piher PT-10v5 Single  Piher PT-15h5 Single  Piher PT-15h2.5 Single  Piher PT-15B Single  Piher PT-15hc5 Single  Piher PT-15v12.5 Single  Piher PT-15v12.5 Single  Piher PT-15v15 Single  Piher PT-15v15 Single  ACP CA6h Single  ACP CA6v Single  ACP CA6v Single  ACP CA6VSMD Single  ACP CA6VSMD Single  ACP CA9h2.5 Single  ACP CA9h3.8 Single  ACP CA9h5 Single  ACP CA9V Single")
     (path /63BA2D15)
@@ -2126,7 +2126,7 @@
   )
 
   (module Housings_DIP:DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 59C78D6C) (tstamp 63BB12D8)
-    (at 113.9952 91.44)
+    (at 115.1128 91.1606)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads")
     (path /63B981E9)
@@ -2317,5 +2317,12 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 31.7754 48.895) (end 31.9024 48.895) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 31.7754 152.5524) (end 31.7754 48.895) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 79.375 48.895) (end 31.8008 48.895) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 167.4368 152.5524) (end 31.8008 152.5524) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 167.4368 48.895) (end 167.4368 152.5524) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 79.375 48.895) (end 167.4368 48.895) (angle 90) (layer Margin) (width 0.2))
 
 )
